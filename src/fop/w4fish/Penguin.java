@@ -137,7 +137,7 @@ public class Penguin extends MiniJava {
      */
     public static void main(String[] args) {
         int pinguRow = 1;
-        int pinguColumn = 2;
+        int pinguColumn = 0;
         int[][] world = generateExampleWorldTwo();
 
         printWorld(world, pinguRow, pinguColumn);
